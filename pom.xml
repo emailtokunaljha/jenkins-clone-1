@@ -213,18 +213,6 @@
     </dependencies>
   </dependencyManagement>
 
-<build>
-    <plugins>
-        <!-- SonarQube Scanner Plugin -->
-        <plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>5.0.1.3006</version>
-        </plugin>
-    </plugins>
-</build>
-
-         
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
